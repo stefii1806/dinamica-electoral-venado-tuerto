@@ -382,7 +382,7 @@ def get_color(partido):
     return COLORES_PARTIDOS.get(partido, "#95a5a6")
 
 # Título principal
-st.title("Dinámica Electoral en la Ciudad de Venado Tuerto durante el período comprendido entre los años 2019 y 2025")
+st.title("Dinámica Electoral en la Ciudad de Venado Tuerto (2019 - 2025)")
 
 # Crear pestañas principales
 tab1, tab2 = st.tabs(["📊 Análisis de Resultados Electorales", "🔮 Simulador Electoral"])
