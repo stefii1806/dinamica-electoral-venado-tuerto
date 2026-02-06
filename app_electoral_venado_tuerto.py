@@ -188,8 +188,8 @@ with tab1:
             fig.update_layout(
                 barmode='group',
                 height=500,
-                xaxis_title="Año y Tipo de Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año y Tipo de Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 hovermode='x unified',
                 plot_bgcolor='white',
@@ -237,8 +237,8 @@ with tab1:
                 barmode='group',
                 title=f"Cuadrante {cuadrante_sel}",
                 height=500,
-                xaxis_title="Año y Tipo de Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año y Tipo de Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 hovermode='x unified',
                 plot_bgcolor='white',
@@ -246,8 +246,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -282,16 +282,16 @@ with tab1:
             fig.update_layout(
                 title=f"Evolución de {fuerza_sel} en Elecciones Generales - {cargo_sel}",
                 height=400,
-                xaxis_title="Año",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año",
+                yaxes_title="Cantidad de Votos",
                 hovermode='x unified',
                 plot_bgcolor='white',
                 paper_bgcolor='white',
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -333,8 +333,8 @@ with tab1:
             barmode='stack',
             title=f"Distribución porcentual - {cargo_sel} {año_comp}",
             height=450,
-            xaxis_title="Tipo de Elección",
-            yaxis_title="Porcentaje de Votos (%)",
+            xaxes_title="Tipo de Elección",
+            yaxes_title="Porcentaje de Votos (%)",
             legend_title="Fuerza Política",
             hovermode='x unified',
             plot_bgcolor='white',
@@ -342,8 +342,8 @@ with tab1:
             font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
         )
 
-        fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-        fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+        fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
         st.plotly_chart(fig, use_container_width=True)
 
@@ -371,16 +371,16 @@ with tab1:
         fig.update_layout(
             title=f"Porcentaje de Participación sobre el Padrón Electoral",
             height=400,
-            xaxis_title="Año",
-            yaxis_title="Participación (%)",
+            xaxes_title="Año",
+            yaxes_title="Participación (%)",
             hovermode='x unified',
             plot_bgcolor='white',
             paper_bgcolor='white',
             font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
         )
 
-        fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-        fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray', range=[0, 100])
+        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+        fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray', range=[0, 100])
 
         st.plotly_chart(fig, use_container_width=True)
 
@@ -447,8 +447,8 @@ with tab1:
             fig.update_layout(
                 barmode='group',
                 height=500,
-                xaxis_title="Año y Tipo de Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año y Tipo de Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 hovermode='x unified',
                 plot_bgcolor='white',
@@ -456,8 +456,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -495,8 +495,8 @@ with tab1:
                 barmode='group',
                 title=f"Cuadrante {cuadrante_sel_p}",
                 height=500,
-                xaxis_title="Año y Tipo de Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año y Tipo de Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 hovermode='x unified',
                 plot_bgcolor='white',
@@ -504,8 +504,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -540,16 +540,16 @@ with tab1:
             fig.update_layout(
                 title=f"Evolución de {fuerza_sel_p} en Elecciones Generales - {cargo_sel_p}",
                 height=400,
-                xaxis_title="Año",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Año",
+                yaxes_title="Cantidad de Votos",
                 hovermode='x unified',
                 plot_bgcolor='white',
                 paper_bgcolor='white',
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -594,16 +594,16 @@ with tab1:
             fig.update_layout(
                 barmode='group',
                 height=450,
-                xaxis_title="Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 plot_bgcolor='white',
                 paper_bgcolor='white',
                 font=dict(family="Inter, sans-serif", size=11, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -637,16 +637,16 @@ with tab1:
             fig.update_layout(
                 barmode='group',
                 height=450,
-                xaxis_title="Elección",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Elección",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Fuerza Política",
                 plot_bgcolor='white',
                 paper_bgcolor='white',
                 font=dict(family="Inter, sans-serif", size=11, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -785,16 +785,16 @@ with tab2:
                 title=f"Comparación: {cargo_sim} {año_base} {tipo_base}",
                 barmode='group',
                 height=500,
-                xaxis_title="Fuerza Política",
-                yaxis_title="Cantidad de Votos",
+                xaxes_title="Fuerza Política",
+                yaxes_title="Cantidad de Votos",
                 legend_title="Escenario",
                 plot_bgcolor='white',
                 paper_bgcolor='white',
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -827,8 +827,8 @@ with tab2:
             fig2.update_layout(
                 title="Cambio Porcentual Respecto al Escenario Base",
                 height=400,
-                xaxis_title="Fuerza Política",
-                yaxis_title="% de Cambio",
+                xaxes_title="Fuerza Política",
+                yaxes_title="% de Cambio",
                 showlegend=False,
                 plot_bgcolor='white',
                 paper_bgcolor='white',
