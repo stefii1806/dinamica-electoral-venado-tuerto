@@ -197,8 +197,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -246,8 +246,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50")
             )
 
-            fig.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig, use_container_width=True)
 
@@ -836,8 +836,8 @@ with tab2:
             )
 
             fig2.add_hline(y=0, line_dash="dash", line_color="gray", line_width=1)
-            fig2.update_xaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
-            fig2.update_yaxis(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig2.update_xaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
+            fig2.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
 
             st.plotly_chart(fig2, use_container_width=True)
 
