@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Dinámica Electoral Venado Tuerto 2019-2025",
+    page_title="Datos Electorales Venado Tuerto 2019-2025",
     page_icon="🗳️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -274,7 +274,7 @@ def get_color(partido):
     return COLORES_PARTIDOS.get(partido, "#95a5a6")
 
 # Título principal con emoji
-st.title("🗳️ Dinámica Electoral en la Ciudad de Venado Tuerto (2019 - 2025)")
+st.title("🗳️ Análisis Exploratorio de Datos Electorales de la Ciudad de Venado Tuerto (2019 - 2025)")
 
 # Crear pestañas principales
 tab1, tab2 = st.tabs(["📊 Análisis de Resultados Electorales", "🔮 Simulador Electoral"])
@@ -1197,7 +1197,7 @@ with tab2:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #7f8c8d; font-size: 0.9rem; padding: 1rem;'>
-    <p><strong>Dinámica Electoral en la Ciudad de Venado Tuerto (2019-2025)</strong></p>
-    <p>Análisis de datos electorales | Municipalidad de Venado Tuerto</p>
+    <p><strong>Datos Electorales de la Ciudad de Venado Tuerto (2019-2025)</strong></p>
+    <p>Análisis Exploratorio de Datos Electorales | Gobierno de Venado Tuerto</p>
 </div>
 """, unsafe_allow_html=True)
