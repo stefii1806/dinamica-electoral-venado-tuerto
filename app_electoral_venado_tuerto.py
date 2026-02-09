@@ -445,7 +445,8 @@ with tab1:
                                 textposition="outside",
                                 width=0.05,
                                 legendgroup=partido,
-                                showlegend=showlegend
+                                showlegend=showlegend,
+                                hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"
                             ),
                             row=row,
                             col=col
