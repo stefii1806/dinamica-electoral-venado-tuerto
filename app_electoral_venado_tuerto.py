@@ -580,7 +580,9 @@ with tab1:
             margin=dict(t=80, b=60, l=60, r=40)
         )
 
-        st.plotly_chart(fig, use_container_width=True)
+        col_left, col_center, col_right = st.columns([1, 2, 1])
+        with col_center:
+           st.plotly_chart(fig, use_container_width=True)
 
         # Gráfico 4: Participación electoral
         st.subheader(f"Evolución de la participación electoral - {normalizar_cargo(cargo_sel)}")
