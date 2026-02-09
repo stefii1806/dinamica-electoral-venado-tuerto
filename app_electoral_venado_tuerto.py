@@ -299,13 +299,13 @@ HOVER_VOTOS = "<b>%{fullData.name}</b><br>%{y:,.0f} votos<extra></extra>"
 # Configuraciones de barras
 BAR_CONFIG = {
     "vista_total": {
-        "width": 0.3,
+        "width": 0.15,
         "bargap": 0.3,
         "bargroupgap": 0.10
     },
     "subplots": {
-        "width": 0.05,
-        "bargap": 0.55,
+        "width": 0.15,
+        "bargap": 0.3,
         "bargroupgap": 0.25
     },
     "comparacion": {
