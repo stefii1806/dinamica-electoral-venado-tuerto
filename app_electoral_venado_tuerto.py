@@ -947,7 +947,8 @@ with tab1:
                         y=[pct_2023[0], pct_2025[0]],
                         marker_color=get_color(partido),
                         text=[f"{pct_2023[0]:.1f}%", f"{pct_2025[0]:.1f}%"],
-                        textposition="outside"
+                        textposition="outside",
+                        hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"
                     ))
 
             fig.update_layout(
