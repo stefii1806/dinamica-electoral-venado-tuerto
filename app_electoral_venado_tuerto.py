@@ -561,7 +561,7 @@ with tab1:
         fig.update_layout(
             barmode="stack",
             title=f"Distribución porcentual - {normalizar_cargo(cargo_sel)} {año_comp}",
-            height=350,
+            height=500,
             xaxis_title="Tipo de Elección",
             yaxis_title="Porcentaje de Votos (%)",
             legend=dict(
