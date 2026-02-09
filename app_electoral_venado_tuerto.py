@@ -462,8 +462,8 @@ with tab1:
                     showlegend=True,
                     legend=dict(
                         orientation="h",
-                        yanchor="bottom",
-                        y=-0.20,
+                        yanchor="top",
+                        y=1.08,
                         xanchor="center",
                         x=0.5,
                         bgcolor="rgba(255,255,255,0.9)",
