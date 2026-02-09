@@ -377,7 +377,7 @@ with tab1:
                 xaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
                 yaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
                 bargap=0.6,
-                bargroupgap=0.25,
+                bargroupgap=0.15,
                 margin=dict(t=120, b=80, l=60, r=40)
             )
 
@@ -443,7 +443,7 @@ with tab1:
                                 marker_color=get_color(partido),
                                 text=[f"{v:.1f}%" for v in y_values],
                                 textposition="outside",
-                                width=0.1,
+                                width=0.05,
                                 legendgroup=partido,
                                 showlegend=showlegend
                             ),
@@ -475,7 +475,7 @@ with tab1:
                     font=dict(family="Inter, sans-serif", size=11, color="#2c3e50"),
                     barmode="group",
                     bargap=0.55,
-                    bargroupgap=0.25,
+                    bargroupgap=0.15,
                     margin=dict(t=60, b=100, l=60, r=40)
                 )
 
