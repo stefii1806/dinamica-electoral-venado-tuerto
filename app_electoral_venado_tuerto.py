@@ -377,7 +377,7 @@ with tab1:
                 xaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
                 yaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
                 bargap=0.5,
-                bargroupgap=0.10,
+                bargroupgap=0.05,
                 margin=dict(t=120, b=80, l=60, r=40)
             )
 
