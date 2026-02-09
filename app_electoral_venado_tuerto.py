@@ -505,7 +505,8 @@ with tab1:
                 line=dict(color=get_color(fuerza_sel), width=3),
                 marker=dict(size=12),
                 text=[f"{p:.1f}%" for p in porcentajes],
-                textposition="top center"
+                textposition="top center",
+                hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"
             ))
 
             fig.update_layout(
