@@ -463,7 +463,7 @@ with tab1:
                     showlegend=True,
                     legend=dict(
                         orientation="h",
-                        yanchor="top",
+                        yanchor="bottom",
                         y=1.18,
                         xanchor="center",
                         x=0.5,
