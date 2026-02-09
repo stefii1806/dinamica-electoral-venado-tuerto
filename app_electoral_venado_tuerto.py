@@ -274,7 +274,7 @@ def get_color(partido):
     return COLORES_PARTIDOS.get(partido, "#95a5a6")
 
 # Título principal con emoji
-st.title("🗳️ Análisis Exploratorio de Datos Electorales de la Ciudad de Venado Tuerto (2019 - 2025)")
+st.title("🗳️ Análisis Exploratorio de Datos Electorales de Venado Tuerto (2019 - 2025)")
 
 # Crear pestañas principales
 tab1, tab2 = st.tabs(["📊 Análisis de Resultados Electorales", "🔮 Simulador Electoral"])
@@ -365,7 +365,7 @@ with tab1:
                     yanchor="bottom",
                     y=1.15,
                     xanchor="center",
-                    x=0.5,
+                    x=0.7,
                     bgcolor="rgba(255,255,255,0.9)",
                     bordercolor="#dee2e6",
                     borderwidth=1
