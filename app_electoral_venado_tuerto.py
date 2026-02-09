@@ -376,8 +376,8 @@ with tab1:
                 font=dict(family="Inter, sans-serif", size=12, color="#2c3e50"),
                 xaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
                 yaxis=dict(showgrid=True, gridwidth=1, gridcolor="#e0e0e0"),
-                bargap=0.6,
-                bargroupgap=0.15,
+                bargap=0.5,
+                bargroupgap=0.10,
                 margin=dict(t=120, b=80, l=60, r=40)
             )
 
