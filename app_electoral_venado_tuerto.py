@@ -555,7 +555,8 @@ with tab1:
                     y=porcentajes,
                     marker_color=get_color(partido),
                     text=[f"{p:.1f}%" for p in porcentajes],
-                    textposition="inside"
+                    textposition="inside",
+                    hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"
                 ))
 
         fig.update_layout(
