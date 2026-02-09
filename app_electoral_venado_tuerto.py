@@ -900,7 +900,8 @@ with tab1:
                         y=[pct_2023[0], pct_2025[0]],
                         marker_color=get_color(partido),
                         text=[f"{pct_2023[0]:.1f}%", f"{pct_2025[0]:.1f}%"],
-                        textposition="outside"
+                        textposition="outside",
+                        hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"
                     ))
 
             fig.update_layout(
@@ -1112,7 +1113,8 @@ with tab2:
                 text=df_sim["Votos Base"],
                 textposition="outside",
                 texttemplate="%{text:,.0f}",
-                width=0.35  # ← BARRAS MÁS FINAS EN SIMULADOR
+                width=0.35,
+                hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"# ← BARRAS MÁS FINAS EN SIMULADOR
             ))
 
             fig.add_trace(go.Bar(
@@ -1123,7 +1125,8 @@ with tab2:
                 text=df_sim["Votos Simulados"],
                 textposition="outside",
                 texttemplate="%{text:,.0f}",
-                width=0.35  # ← BARRAS MÁS FINAS EN SIMULADOR
+                width=0.35,
+                hovertemplate="<b>%{fullData.name}</b><br>%{y:.1f}%<extra></extra>"# ← BARRAS MÁS FINAS EN SIMULADOR
             ))
 
             fig.update_layout(
