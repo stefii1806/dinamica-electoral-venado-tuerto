@@ -352,7 +352,7 @@ with tab1:
                     marker_color=get_color(partido),
                     text=[f"{v:.1f}%" for v in y_values],
                     textposition="outside",
-                    width=0.08
+                    width=0.05
                 ))
 
             fig.update_layout(
